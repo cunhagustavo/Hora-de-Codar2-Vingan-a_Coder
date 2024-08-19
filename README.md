@@ -1,4 +1,4 @@
-# Hora-de-Codar2-Vingan-a_Coder-p
+# Hora-de-Codar2-Vingan-a_Coder
 Lista de atividade do PROA, enviada pra treinar a codificação de novos programas.
 
 
