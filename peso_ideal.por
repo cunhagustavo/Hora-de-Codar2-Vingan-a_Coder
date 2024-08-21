@@ -3,24 +3,27 @@ programa
 	
 	funcao inicio()
 	{
-		real h, sexo, peso
+		real h, peso
+		inteiro genero
 
-		escreva ("Qual é o seu sexo?\n")
+		escreva ("Qual é o seu gênero?\n")
 		escreva ("1 - FEMININO\n")
 		escreva ("2 - MASCULINO\n")
-		leia (sexo)
+		leia (genero)
 
-		 se (sexo == 1){
+		 se (genero == 1){
 		 	escreva ("Qual é a sua altura?\n")
 		 	leia (h)
+			limpa()
 
 		 	peso = (62.1 * h) - 44.7
 
 		 	escreva ("O peso ideal é: ", peso)
 		 }
-		  se (sexo == 2){
+		  se (genero == 2){
 		 	escreva ("Qual é a sua altura?\n")
 		 	leia (h)
+			limpa()
 
 		 	peso = (72.7 * h) - 58
 
